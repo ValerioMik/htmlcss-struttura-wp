@@ -16,37 +16,77 @@ header{
 }
 
 /* main */
-.conteiner{
+    /*  blocco */
+
+    .bcco1{
+
     width: 70%;
-    height:auto%;
-    margin: 0 auto;
-    /* regole di thebug */
+    height: 300px;
+    margin: 30px auto;
+    /* regole the bug */
+    background-color: rgb(247, 237, 101);
+    }
+
+    /* nav */
+
+    .nav{
+        height: 50px;
+        width:100%;
+        margin: 16px auto;
+        /* regolethebug */
+        background-color:  rgb(127, 178, 255);
+    }
     
+
+/* widjet */
+
+.container{
+    width: 70%;
+    margin: 0px auto;
+    /* regole di debug */
+    background-color: rgb(23, 0, 226);
 }
 
-/* clearfix */
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-/*  blocco */
 
-.bcco1{
+.widgetsx{
+    float:left;
+    width: 20%;
+    height: 500px;
+    /* regole di debug */
+    background-color:  rgb(127, 178, 255) ;
 }
 
-/* widjet */
+.widgetdx{
+    float: left;
+    width: 20%;
+    height: 500px;
+    /* regole di debug */
+    background-color: rgb(127, 178, 255);
+}
 
-/* footer */
+.articolo{
+
+    float: left;
+    margin: 0 2%;
+    width: 56%;
+    height: 500px;
+    /* regole the bug */
+    background-color: rgb(127, 178, 255) ;
+
+}
 
 footer{
-    height: 30px;
-    width:70%;
-    margin: 0 auto;
-    /* regole debug */
-    background-color: rgb(96, 10, 235);
-}
-}
 
+    height: 50px;
+    width:70%;
+    margin: 5px auto;
+    /* regolethebug */
+    background-color: rgb(152, 4, 250);
+}
 
