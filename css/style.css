@@ -1,9 +1,52 @@
 /* generali */
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* header */
 
+header{
+    height: 100px;
+    width:70%;
+    margin: 0 auto;
+    /* regole debug */
+    background-color: rgb(211, 43, 226);
+}
+
 /* main */
+.conteiner{
+    width: 70%;
+    height:auto%;
+    margin: 0 auto;
+    /* regole di thebug */
+    
+}
+
+/* clearfix */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /*  blocco */
 
+.bcco1{
+}
+
 /* widjet */
+
+/* footer */
+
+footer{
+    height: 30px;
+    width:70%;
+    margin: 0 auto;
+    /* regole debug */
+    background-color: rgb(96, 10, 235);
+}
+}
+
+
