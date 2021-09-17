@@ -5,29 +5,27 @@
     box-sizing: border-box;
 }
 
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
 /* header */
 
 header{
-    height: 100px;
-    width:70%;
-    margin: 0 auto;
     /* regole debug */
     background-color: rgb(211, 43, 226);
 }
 
-/* main */
-    /*  blocco */
-
-    .bcco1{
-
-    width: 70%;
+.jumbotron{
     height: 300px;
-    margin: 30px auto;
+    margin-top: 30px;
     /* regole the bug */
     background-color: rgb(247, 237, 101);
     }
 
-    /* nav */
+
+
+/* main */
 
     .nav{
         height: 50px;
@@ -40,13 +38,6 @@ header{
 
 /* widjet */
 
-.container{
-    width: 70%;
-    margin: 0px auto;
-    /* regole di debug */
-    background-color: rgb(23, 0, 226);
-}
-
 .clearfix::after{
     content: "";
     display: table;
@@ -54,20 +45,12 @@ header{
 }
 
 
-.widgetsx{
+.widget{
     float:left;
     width: 20%;
     height: 500px;
     /* regole di debug */
     background-color:  rgb(127, 178, 255) ;
-}
-
-.widgetdx{
-    float: left;
-    width: 20%;
-    height: 500px;
-    /* regole di debug */
-    background-color: rgb(127, 178, 255);
 }
 
 .articolo{
@@ -84,8 +67,7 @@ header{
 footer{
 
     height: 50px;
-    width:70%;
-    margin: 5px auto;
+    margin-top: 15px;
     /* regolethebug */
     background-color: rgb(152, 4, 250);
 }
